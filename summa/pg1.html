@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation Sidebar -->
+        <nav class="sidebar">
+            <div class="logo">
+                <h2>EduPlatform</h2>
+            </div>
+            <ul class="nav-items">
+                <li class="active"><i class="fas fa-home"></i> Dashboard</li>
+                <li><i class="fas fa-book"></i> My Course</li>
+                <li><i class="fas fa-calendar"></i> Schedule</li>
+                <li><i class="fas fa-tasks"></i> Homework</li>
+                <li><i class="fas fa-envelope"></i> Message</li>
+                <li><i class="fas fa-users"></i> Group</li>
+                <li><i class="fas fa-cog"></i> Settings</li>
+            </ul>
+            <button class="logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</button>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="top-bar">
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search...">
+                </div>
+                <div class="profile">
+                    <img src="https://via.placeholder.com/40" alt="Profile" class="profile-pic">
+                </div>
+            </div>
+
+            <div class="course-section">
+                <h1>Data Science / Automatic Design System</h1>
+                <h3>Automation Effects</h3>
+                <p>11 Lessons - 3 Hours</p>
+                <div class="video-preview">
+                    <img src="https://via.placeholder.com/600x300" alt="Course Preview">
+                </div>
+            </div>
+
+            <div class="progress-section">
+                <h2>My Progress</h2>
+                <div class="progress-cards">
+                    <div class="progress-card">
+                        <h3>Interaction - I</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius.</p>
+                        <div class="card-footer">
+                            <span>8 classes - 45 min</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-card">
+                        <h3>Interaction - II</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius.</p>
+                        <div class="card-footer">
+                            <span>10 classes - 60 min</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-card">
+                        <h3>Interaction - III</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius.</p>
+                        <div class="card-footer">
+                            <span>12 classes - 70 min</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Right Sidebar -->
+         <!-- Right Sidebar -->
+         <aside class="right-sidebar">
+            <div class="special-classes">
+                <h2>My Special Classes</h2>
+                <p>No special booking yet!</p>
+                <button class="book-now-btn">Book Now</button>
+            </div>
+
+            <div class="upcoming-schedule">
+                <h2>Schedule - upcoming</h2>
+                <ul class="schedule-list">
+                    <li>English classes</li>
+                    <li>Physical classes</li>
+                    <li>Mathematic classes</li>
+                </ul>
+            </div>
+
+            <div class="assignments">
+                <h2>Your Assignments</h2>
+                <ul class="assignment-list">
+                    <li>Lesson 1: Tech ops of Data Sciences</li>
+                    <li>Lesson 4: Motion and Force of power energy</li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
